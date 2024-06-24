@@ -2,8 +2,8 @@ import pandas as pd
 import numpy as np
 import os
 import re
-import cv2
 import glob
+import cv2
 import matplotlib.pyplot as plt
 from matplotlib.widgets  import RectangleSelector
 import seaborn as sns
