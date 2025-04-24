@@ -327,7 +327,7 @@ def plot_psd_band(time_bins, frequency_bins, power, x_tick_labels=None, ylim=Non
     plt.imshow(
         filtered_power.T,  # Transpose to match the orientation (time on x-axis, frequency on y-axis)
         aspect='auto',  # Automatic aspect ratio
-        cmap='jet',  # Color map
+        cmap='viridis',  # Color map
         origin='lower',  # Set origin to lower-left
         interpolation='gaussian',  # Use Gaussian interpolation
         vmin=vmin,  # Set the minimum value for the color scale
